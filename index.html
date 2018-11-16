@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset='utf-8' />
+	<title></title>
+	<meta name="format-detection" content="telephone=no">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<meta name='viewport' content='width=device-width,initial-scale=1,user-scalable=no'>
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+	<link rel="stylesheet" type="text/css" href="">
+	<script src='js/jquery.min.js'></script>
+	<script type="text/javascript">
+		(function(){
+			function changeRem(){
+				var _sw = $(window).width();
+				if(_sw>540){
+					_sw = 540;
+				}
+				var fonts = _sw/10;
+				$('html').css('fontSize',fonts);
+			}
+			$(window).on('resize',changeRem).trigger('resize');
+		})()	
+	</script>
+</head>
+<body>
+	<header>
+		<div class='search'><span class='icon-search'>寻找宝贝店铺</span></div>
+	</header>
+	<div class="scroll-wrap">
+		<section class='banner'>
+			<div class="swiper-container">
+				<ul class='swiper-wrapper clearfix'>
+					<li class='swiper-slide'><a href=""><img src="images/1.jpg"></a></li>
+					<li class='swiper-slide'><a href=""><img src="images/2.jpg"></a></li>
+					<li class='swiper-slide'><a href=""><img src="images/3.jpg"></a></li>
+					<li class='swiper-slide'><a href=""><img src="images/4.jpg"></a></li>
+				</ul>
+			</div>
+			<div class="pagination btn">
+				<span></span>
+				<span></span>
+				<span></span>
+				<span></span>
+			</div>
+		</section>
+		<nav>
+			<div class="row">
+				<a href=""><img src="images/nav1.png"><p>天猫</p></a>
+				<a href=""><img src="images/nav2.png"><p>聚划算</p></a>
+				<a href=""><img src="images/nav3.png"><p>到家</p></a>
+				<a href=""><img src="images/nav4.png"><p>外卖</p></a>
+				
+			</div>
+			<div class="row">
+				<a href=""><img src="images/nav5.png"><p>充值</p></a>
+				<a href=""><img src="images/nav6.png"><p>阿里旅行</p></a>
+				<a href=""><img src="images/nav7.png"><p>领金币</p></a>
+				<a href=""><img src="images/nav8.png"><p>分类</p></a>
+			</div>
+		</nav>
+		<section class='news'>
+			<div class="news-content">
+				<img src="images/taobao.png">
+				<span>最新</span>
+				<span>Supreme 2016秋冬配件系列完整一览</span>
+			</div>
+		</section>
+		<section class='rushby'>
+			<div class="content horizontal-view">
+				<div class="rushby-left rline"></div>
+				<div class="rushby-right vertical-view">
+					<div class="top horizontal-view">
+						<p></p>
+						<p></p>
+					</div>
+					<div class="bottom horizontal-view tline">
+						<p class='rline'></p>
+						<p></p>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class='vertical-view boon'>
+			<div class="title horizontal-view boon-title">
+				<p></p>
+				<p></p>
+				<p>超实惠</p>
+				<p></p>
+			</div>
+			<div class="content">
+				<div class="row horizontal-view">
+					<p class='rline'></p>
+					<p class='rline'></p>
+					<p class='rline'></p>
+					<p></p>
+				</div>
+				<div class="row horizontal-view tline">
+					<p class='rline'></p>
+					<p class='rline'></p>
+					<p class='rline'></p>
+					<p></p>
+				</div>
+			</div>
+		</section>
+		<section class='vertical-view quality'>
+			<div class="title horizontal-view quality-title">
+				<p></p>
+				<p></p>
+				<p>好品质</p>
+				<p></p>
+			</div>
+			<div class="content">
+				<div class="row horizontal-view">
+					<p class='rline'></p>
+					<p></p>
+				</div>
+				<div class="row horizontal-view tline">
+					<p class='rline'></p>
+					<p class='rline'></p>
+					<p class='rline'></p>
+					<p class='rline'></p>
+					<p></p>
+				</div>
+			</div>
+		</section>
+		<section class='vertical-view boon feature'>
+			<div class="title horizontal-view feature-title">
+				<p></p>
+				<p></p>
+				<p>有特色</p>
+				<p></p>
+			</div>
+			<div class="content">
+				<div class="row horizontal-view">
+					<p class='rline'></p>
+					<p class='rline'></p>
+					<p class='rline'></p>
+					<p></p>
+				</div>
+				<div class="row horizontal-view tline">
+					<p class='rline'></p>
+					<p class='rline'></p>
+					<p class='rline'></p>
+					<p></p>
+				</div>
+			</div>
+		</section>
+		<div class="pic banner1"></div>
+		<section class='market'>
+			<div class="title horizontal-view market-title">
+				<p></p>
+				<p></p>
+				<p>热门市场</p>
+				<p></p>
+				<p>更多</p>
+				<p></p>
+			</div>
+			<div class="content">
+				<div class="row horizontal-view">
+					<div class='rline'>
+						<p>品质穿搭</p>
+						<p>制造品味</p>
+						<p></p>
+					</div>
+					<div>
+						<p>品质穿搭</p>
+						<p>制造品味</p>
+						<p></p>
+					</div>
+				</div>
+				<div class="row horizontal-view tline">
+					<div>
+						<p>品质穿搭</p>
+						<p>制造品味</p>
+						<p></p>
+					</div>
+					<div class='rline'>
+						<p>品质穿搭</p>
+						<p>制造品味</p>
+						<p></p>
+					</div>
+					<div class='rline'>
+						<p>品质穿搭</p>
+						<p>制造品味</p>
+						<p></p>
+					</div>
+					<div>
+						<p>品质穿搭</p>
+						<p>制造品味</p>
+						<p></p>
+					</div>
+				</div>
+				<div class="row horizontal-view tline">
+					<div>
+						<p>品质穿搭</p>
+						<p>制造品味</p>
+						<p></p>
+					</div>
+					<div class='rline'>
+						<p>品质穿搭</p>
+						<p>制造品味</p>
+						<p></p>
+					</div>
+					<div class='rline'>
+						<p>品质穿搭</p>
+						<p>制造品味</p>
+						<p></p>
+					</div>
+					<div>
+						<p>品质穿搭</p>
+						<p>制造品味</p>
+						<p></p>
+					</div>
+				</div>
+			</div>	
+		</section>
+		<div class="pic banner2"></div>
+		<section class='shop'>
+			<div class="shop-title horizontal-view">
+				<p></p>
+				<p>每日好店</p>
+				<p>更新50个好店</p>
+				<p></p>
+			</div>
+			<div class="content">
+				<ul class='horizontal-view'>
+					<li>
+						<div class="row horizontal-view">
+							<div class="shop-left vertical-view">
+								<div class="horizontal-view">
+									<p></p>
+									<div class="vertical-view">
+										<p></p>
+										<p></p>
+									</div>
+								</div>
+								<span>今日推荐1天3波</span>
+							</div>
+							<div class="shop-right vertical-view">
+								<div class="horizontal-view">
+									<p></p>
+									<div class="vertical-view">
+										<p></p>
+										<p></p>
+									</div>
+								</div>
+								<span>吃吃吃</span>	
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="row horizontal-view">
+							<div class="shop-left vertical-view">
+								<div class="horizontal-view">
+									<p></p>
+									<div class="vertical-view">
+										<p></p>
+										<p></p>
+									</div>
+								</div>
+								<span>今日推荐1天3波</span>
+							</div>
+							<div class="shop-right vertical-view">
+								<div class="horizontal-view">
+									<p></p>
+									<div class="vertical-view">
+										<p></p>
+										<p></p>
+									</div>
+								</div>
+								<span>吃吃吃</span>	
+							</div>
+						</div>
+					</li>
+				</ul>
+				<div class="pagination">
+					<span class='on'></span>
+					<span></span>
+				</div>
+			</div>
+		</section>
+		<section class='ylike'>
+			<div class="ylike-title horizontal-view">
+				<p></p>
+				<p>猜你喜欢</p>
+				<p></p>
+			</div>
+			<div class="content">
+				<ul class='clearfix'>
+					<li>
+						<img src="images/guess1.jpg">
+						<p>[为你推荐]出口原单法式乡村纯实木双层床美式复古高低子母床儿童上下床直销</p>
+						<span>￥4980.0</span>
+					</li>
+					<li>
+						<img src="images/guess1.jpg">
+						<p>[为你推荐]出口原单法式乡村纯实木双层床美式复古高低子母床儿童上下床直销</p>
+						<span>￥4980.0</span>
+					</li>
+					<li>
+						<img src="images/guess1.jpg">
+						<p>[为你推荐]出口原单法式乡村纯实木双层床美式复古高低子母床儿童上下床直销</p>
+						<span>￥4980.0</span>
+					</li>
+					<li>
+						<img src="images/guess1.jpg">
+						<p>[为你推荐]出口原单法式乡村纯实木双层床美式复古高低子母床儿童上下床直销</p>
+						<span>￥4980.0</span>
+					</li>
+					<li>
+						<img src="images/guess1.jpg">
+						<p>[为你推荐]出口原单法式乡村纯实木双层床美式复古高低子母床儿童上下床直销</p>
+						<span>￥4980.0</span>
+					</li>
+					<li>
+						<img src="images/guess1.jpg">
+						<p>[为你推荐]出口原单法式乡村纯实木双层床美式复古高低子母床儿童上下床直销</p>
+						<span>￥4980.0</span>
+					</li>
+					<li>
+						<img src="images/guess1.jpg">
+						<p>[为你推荐]出口原单法式乡村纯实木双层床美式复古高低子母床儿童上下床直销</p>
+						<span>￥4980.0</span>
+					</li>
+					<li>
+						<img src="images/guess1.jpg">
+						<p>[为你推荐]出口原单法式乡村纯实木双层床美式复古高低子母床儿童上下床直销</p>
+						<span>￥4980.0</span>
+					</li>
+				</ul>
+			</div>
+		</section>
+		<footer>
+			<div class='horizontal-view link'>
+				<a href="">登录</a>
+				<a href="">注册</a>
+				<a href="">电脑版</a>
+				<a href="">用户反馈</a>
+			</div>
+			<div class='copyright'><span>2016 浙 B2-20080224 服务中心</span></div>
+		</footer>
+	</div>
+	<div class='fix-nav horizontal-view'>
+		<a href="" class='icon-index'>首页</a>
+		<a href="" class='icon-wuliu'>物流</a>
+		<a href="" class='icon-gwc'>购物车</a>
+		<a href="" class='icon-wdtb'>我的淘宝</a>
+		<a href="" class='icon-more'>更多</a>
+	</div>
+	<div class="go-top icon-top">
+		顶部
+	</div>
+</body>
+</html>
